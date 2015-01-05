@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.khl.assignment2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="org.khl.assignment2.SplashScreenActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.khl.assignment2.MainActivity"
+            android:label="@string/groups_title" >
+        </activity>
+        <activity
+            android:name="org.khl.assignment2.CreateGroupActivity"
+            android:label="@string/create_group_title"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="org.khl.assignment2.GroupDetailActivity"
+            android:label="@string/group_detail_title" >
+        </activity>
+        <activity
+            android:name="org.khl.assignment2.MemberDetailActivity"
+            android:label="@string/member_detail_title" >
+        </activity>
+        <activity
+            android:name="org.khl.assignment2.ExpenseDetailActivity"
+            android:label="@string/expense_detail_title" >
+        </activity>
+        <activity
+            android:name="org.khl.assignment2.AddExpenseActivity"
+            android:label="@string/add_expense_title"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="org.khl.assignment2.SettingsActivity"
+            android:label="@string/settings_title"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="org.khl.assignment2.CreateMemberActivity"
+            android:label="@string/create_member_title">
+        </activity>
+    </application>
+
+</manifest>

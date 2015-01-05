@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+	<groups>
+		<group>     
+		    <groupid>10</groupid>
+			<groupname>Group001</groupname>
+			<members>
+				<memberid>2</memberid>
+			</members>	
+		</group>
+	</groups>
+	<members>
+		<member>
+			<memberid>2</memberid>
+			<firstname>John</firstname>
+			<lastname>Doe</lastname>
+			<email>John@outlook.com</email>
+			<expenses>
+				<expense>
+			    	<expenseid></expenseid>
+			        <amount></amount>
+			        <date></date>
+			        <description></description>
+			        <receivers>
+			        	<receiverid></receiverid>
+			        </receivers>
+			        <groupid></groupid>  
+			    </expense>
+			</expenses>
+		</member>
+	</members>
+</database>
